@@ -1,0 +1,556 @@
+<div id="home">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+  <link rel="stylesheet" href="MainStyle.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">MY PORTFOLIO</div>
+  </header>
+  <main class="hero">
+    <div class="hero-text"><center>
+    <div class="box1">
+      <h2>HARMON HMINGSANGTHANG</h2>
+      <p>
+        Seeking an opportunity to work in a project or an organization that provides the best use of my skills and capabilities and bring 
+        out the best in me. Smart work and goal oriented personality is my strength. Please explore my Portfolio.
+      </p>
+      <a class="btn" onClick="showProfile()" >Get started</a>
+    </div> 
+    
+
+    <div class="image-container">
+  <button class="prev" onclick="prevImage()">&#10094;</button>
+  
+ 
+  <img class="ima" id="image" src="Andrew.jpg" alt="Image 1">
+  
+  <button class="next" onclick="nextImage()">&#10095;</button>
+</div>
+      
+        
+        </div> </center>
+    
+    
+    <section class="infographic-grid">
+    <div class="card teal">
+      <div class="icon-box">🔍</div>
+      <div class="content">
+        <h3>WORK  EXPERIENCE</h3>
+        <p>
+        <section class="service-section">
+    <div class="service-column">
+      <div class="service-item">Back Office Executive</div>
+    </div>
+</section>
+        </p>
+      </div>
+      <div class="number">01</div>
+    </div>
+    <div class="card pink">
+      <div class="icon-box">🚀</div>
+      <div class="content">
+        <h3>SKILLS</h3>
+        <p>
+        <section class="service-section">
+    <div class="service-column">
+      <div class="service-item">Graphic Designing</div>
+      <div class="service-item">Web Developing</div>
+      <div class="service-item">Android Apps Developing</div>
+    </div>
+</section>
+</p>
+      </div>
+      <div class="number">02</div>
+    </div>
+</section>
+      </main>  
+<!--BOTTOM LAYOUT-->
+ <center><bottom>
+<div class="bott1"> 
+<a class="link1" onClick="showHome()">🏠 Home </a> 
+<a class="link1" onClick="showProfile()"> 🎓 Qualification </a> 
+<a class="link1" onClick="showExp()"> 💼Experiences </a> 
+<a class="link1" onClick="showSkills()"> 🎯 Skills </a> 
+ 
+</div>
+</bottom></center>
+
+
+<script>
+
+let images = ["Andrew.jpg", "Grace21.jpg", "Hosea.jpg" , "Mypixi11screen.jpg" , "Mypixi12screen.jpg" , "Omeg.jpg"];
+let currentImage = 0;
+
+function nextImage() {
+  currentImage = (currentImage + 1) % images.length;
+  document.getElementById("image").src = images[currentImage];
+}
+
+function prevImage() {
+  currentImage = (currentImage - 1 + images.length) % images.length;
+  document.getElementById("image").src = images[currentImage];
+}
+</script>
+
+</body>
+</html>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="skills" style="display:none">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+  <link rel="stylesheet" href="MainStyle.css">
+</head>
+<header>
+    <h1>🎯 SKILLS</h1>
+  </header>
+  
+  <main class="container">
+   <section class="posts1">
+      <article>
+        <img src="https://via.placeholder.com/300x150" alt="">
+        <h2>1. Graphic Designing <hr></h2> 
+ As a graphic designer with experience in Adobe Photoshop and Illustrator. I have succssfully created visually appealing 
+appreciation certificates for students. With a keen eye for detail and a strong understanding of design principles. 
+I have delivered a high-quality designs that meet client expectations. My expertise includes:
+<div class="dt">○ Designing customized appreciation certificates using Adobe Photoshop and Illustrator.
+</div> 
+<div class="dt">○ Apply design principles, including color theory and typography, to create engaging visual communications.
+</div> 
+<div class="dt">○ Working closely with clients to understand their needs and deliver designs that meet their expectations.
+</div>
+With my skills and experience, I am confident in my ability to create effective and visually appealing designs that exceeds client expectations.
+        </article>
+      
+<article>
+        <img src="https://via.placeholder.com/300x150" alt="">
+        <h2>2. Web Developing <hr></h2> 
+As a web developer with experience in HTML, CSS and JAVASCRIPT. I've successfully built and published a personal website that shoecases my skills
+ in web development. With a strong understang of web development principles, I'm confident in my ability to create functional and visually 
+ appealing websites that meet user needs.<br>
+ <h4> Key Skills: </h4>
+ <div class="dt">○ Front-end Development: Skilled in using HTML, CSS and Javascript to create web pages with a focus on user experience and interface. 
+ </div> 
+  <div class="dt">○ Web Page Design: Experienced in designing and building web pages that are visually appealing and functional.
+ </div>
+  <div class="dt">○ Problem Solving: Strong problem-solving skills to debug and troubleshoot web development issues.
+ </div> <br>
+ 
+ <h4> Experience: </h4>
+ <div class="dt">○ Personal Project: Designed and developed a personal website using HTML, CSS and Javascript, demonstrating skills in web development and deployment.
+ </div> 
+  <div class="dt">○ Key Features :
+  <div class="dt1">♦ Built a functional and visually appealing website with a user-friendly interface.
+ </div>
+ <div class="dt1">♦ Utilized HTML, CSS and Javascript to create interactive web pages.
+ </div>
+
+
+ </div>
+  
+
+        </article>
+        
+        
+<article>
+        <img src="https://via.placeholder.com/300x150" alt="">
+        <h2>3. Android Apps Developing <hr></h2> 
+
+As an Android App Developer with experience in both coding and non-coding approaches, I've successfully created a songbook app
+and a dictionary app using Android Studio. With a strong understanding of app development principles. I'm confident in my ability to design 
+and develop mobile application that meet user needs.
+
+<h4> Key Skills: </h4>
+ <div class="dt">○ Android APp Development: Skilled in using Android Studio to design and develop mobile application.
+ </div> 
+  <div class="dt">○ Coding: Proficient in coding languages such as Java or Kotlin to create custom app functionality.
+ </div>
+  <div class="dt">○ Non-Coding: Experienced in non-coding tools and platforms to create apps without extensive coding knowledge.
+ </div> 
+ <div class="dt">○ App Design: Strong understanding of app design principles, including user interface and user experience.
+ </div><br>
+
+<h4> Experience: </h4>
+ <div class="dt">○ Personal Project: Developed a songbook app and dictionary app using Android studio, demonstrating skills in app
+ development and design.
+ </div> 
+  <div class="dt">○ Key Features: .
+ </div>
+  <div class="dt1">♦ Designed and developed user-friendly interface for both apps.
+ </div> 
+ <div class="dt1">♦ Implemented features such as song lyrics display and dictionary word search.
+ </div>
+ <br>
+
+
+         </article>
+
+
+              </main>
+<div class="more-posts1"> <a class="more-posts" onClick="showExp()">&#10094; Back </a>
+ <a class="more-posts" onClick="showHome()"> Home &#10095;</a> </div> 
+  
+<!--BOTTOM LAYOUT-->
+ <center><bottom>
+<div class="bott1"> 
+<a class="link1" onClick="showHome()">🏠 Home </a> 
+<a class="link1" onClick="showProfile()"> 🎓 Qualification </a> 
+<a class="link1" onClick="showExp()"> 💼Experiences </a> 
+<a class="link1" onClick="showSkills()"> 🎯 Skills </a></div>
+</bottom></center>
+</body>
+</html>
+</div>
+
+
+
+
+
+<div id="exp" style="display:none">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+  <link rel="stylesheet" href="MainStyle.css">
+</head>
+
+
+<header>
+    <h1>💼 WORK EXPERIENCES</h1>
+  </header>
+  
+  <main class="container">
+   <section class="posts1">
+      <article>
+        <img src="https://via.placeholder.com/300x150" alt="">
+        <h2>Sales Upsales <hr></h2> <p>
+        <ul>
+        <b>📍  Role : </b>
+        <div class="dt"> ♦ Back Offie Executive</div> <br>
+        <b>📍  Duration :</b>
+        <div class="dt"> ♦ 1st April 2024 - 15th October 2024</div> <br>
+        <b>📍  Daily Duties :</b>
+        <div class="dt"> ♦ Data Verification Specialist - </div>
+        <div class="dt1"> ● Verified accurate of client data, including names, job titles, company names, addresses and contact information,
+        using various platform such as LinkedIn, Apollo, Rocketreach and Official website staff lists. </div> 
+        <div class="dt1"> ● Compared verified data with existing records in Excel to identity discrepencies and ensure data reliability. </div> 
+        <div class="dt1"> ● Correct incorrect or mismatched data from varified sources to maintain data integrity.</div> <br>
+
+<div class="dt"> ♦ Key Achievements - </div>
+        <div class="dt1"> ● Ensured high level of data accurate and reliability.</div> 
+        <div class="dt1"> ● Improved data quality and reduced errors. </div>
+        <div class="dt1"> ● Demonstrated strong research and analytical skills.</div> <br>
+
+<div class="dt"> ♦ Additional Responsibilities - </div>
+        <div class="dt1"> ● Provided administrative support and handled office tasks. </div> 
+        <div class="dt1"> ● Resolved technical issues and troubleshooted computer problems. </div> <br>
+
+        <b> 📍 Reason of leaving : </b>
+        <div class="dt1"> I initially joined Sales Upsales while i was pursuing my BCA Course to help manage my educational expenses and living costs.
+        With my studies now complete, i'm focusing a long-term career opportunity which will be more align with my career and skills. </div><br>
+</article>
+              </main>
+<div class="more-posts1"> 
+<a class="more-posts" onClick="showProfile()">&#10094; Back </a>
+ <a class="more-posts" onClick="showSkills()"> Next &#10095;</a> </div>
+
+<!--BOTTOM LAYOUT-->
+ <center><bottom>
+<div class="bott1"> 
+<a class="link1" onClick="showHome()">🏠 Home </a> 
+<a class="link1" onClick="showProfile()"> 🎓 Qualification </a> 
+<a class="link1" onClick="showExp()"> 💼Experiences </a> 
+<a class="link1" onClick="showSkills()"> 🎯 Skills </a> 
+</div>
+</bottom></center>
+</body>
+</html>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="profile" style="display:none">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+  <link rel="stylesheet" href="MainStyle.css">
+</head>
+
+<body>
+<header>
+    <h1>🎓 PROFILE & QUALIFICATION</h1>
+  </header>
+<div class="Heading1"> <h3>Personal Information </h3>
+<h3> Educational Qualification </h3></div>
+  <main class="container">
+    <aside class="sidebar">
+    <div class="tex">  
+    
+👤 Harmon Hmingsangthang   </div><br>
+🧑 Male <br>
+<div class="tex">
+✉️ hrhmingsangthang@gmail.com <br> </div>
+<div class="tex">
+📞 9362666588 / 8399918704 <br> </div>
+<div class="tex">
+🎁 01st July 1998 <br> </div>
+<div class="tex">
+✝️ Christianity <br> <div>
+<div class="tex">
+🌎 English, Hindi, Mizo <br> </div>
+<div class="tex">
+📌 Hmarkhawlien, Cachar Assam - 788106 </div> <hr size="4px" color="#A6CAA9";>
+
+<br> <br><br> <br><br> <br>
+<center> <h3> Hobbies  <hr width="150px";></h3> </center>
+<ul>
+        <li>Playing Music</li>
+        <li>Coding & Programming</li>
+        <li>Graphic Designing</li>
+      </ul> <hr size="4px" color="#A6CAA9";>
+
+<br> <br><br> <br><br> <br>
+<center> <h3> Languages  <hr width="150px";></h3> </center>
+<ul>
+        <li>English - Fluent</li>
+        <li>Hndi - Basic</li>
+        <li>Mizo - Fluent</li>
+      </ul> <hr size="4px" color="#A6CAA9";>
+    </aside>
+    <section class="posts">
+      <article>
+        <img src="https://via.placeholder.com/300x150" alt="">
+        <h2>Class - 10 <hr></h2> <p>
+         <center><u><h3>Subject : </h3></u></center>
+        <table width="100%";>
+        <tr border="1px grey" width="100%";>
+        <td class="lisstype">English</td>
+        </tr>
+        <tr>
+        <td class="lisstype">General Science</td>
+        </tr>
+        <tr>
+        <td class="lisstype">MIL (Hmar)</td>
+        </tr>
+        <tr>
+        <td class="lisstype">Mathematics</td>
+        </tr>
+        <tr>
+        <td class="lisstype">Social Science</td>
+        </tr>
+        <tr>
+        <td class="lisstype">History</td>
+        </tr>
+      </table> 
+<ul>
+<li> School : Edith Douglas English School </li>
+<li> Board : SEBA </li>
+<li> Percentage : 51 </li>
+<li> Year : 2014 </li>
+</ul>
+</table>
+              </article>
+
+      
+      <article>
+        <img src="https://via.placeholder.com/300x150" alt="">
+        <h2>Class - 12 <hr></h2> <p>
+         <center><u><h3>Subject : </h3></u></center>
+        <table width="100%";>
+        <tr>
+        <td class="lisstype">English</td></tr>
+        <tr><td class="lisstype">MIL (Hmar)</td></td>
+        <tr><td class="lisstype">Pol. Science</td></tr>
+        <tr><td class="lisstype">Economics</td></tr>
+        <tr><td class="lisstype">History</td></tr>
+      </table>
+
+<ul>
+<li> School : Lakhipur Junior College </li>
+<li> Board : ASHEC </li>
+<li> Percentage : 53 </li>
+<li> Year : 2016 </li>
+</ul>
+
+              </article>
+
+
+      <article>
+        <img src="https://via.placeholder.com/300x150" alt="">
+        <h2>Bachelor Computer Application <hr></h2> <p>
+         <center><u><h3>Subject/Paper : </h3></u></center>
+        <table width="100%";>
+        <tr>
+        <td class="lisstype">Introduction to C Programming</td></tr>
+        <tr>
+        <td class="lisstype">Computer fundamental & ICT Hardware </td></tr>
+        <tr>
+        <td class="lisstype">Office Automation </td></tr>
+        <tr>
+        <td class="lisstype">English Communication</td></tr>
+        <tr>
+        <td class="lisstype">Mathematics - I </td></tr>
+        <tr>
+        <td class="lisstype">Digital Logic Fundamentals </td></tr>
+        <tr>
+        <td class="lisstype">Basic Electronics </td></tr>
+        <tr>
+        <td class="lisstype">Environmental Science </td></tr>
+        <tr>
+        <td class="lisstype">Software Engineering </td></tr>
+        <tr>
+	   <td class="lisstype">Data Structure and Algorithms</td></tr>
+	   <tr>
+        <td class="lisstype">Database Management System </td></tr>
+        <tr>
+        <td class="lisstype">Introduction to Indian History </td></tr>
+        <tr>
+        <td class="lisstype">Programming with C# </td></tr>
+        <tr>
+	   <td class="lisstype">Computer Organization and Architecture </td></tr>
+	   <tr>
+        <td class="lisstype">Mathematics - II </td></tr>
+        <tr>
+        <td class="lisstype">Object Oriented Programming in C++ </td></tr>
+        <tr>
+        <td class="lisstype">Information Security and Cyber Laws </td></tr>
+        <tr>
+	   <td class="lisstype">Mobile Application </td></tr>
+	   <tr>
+        <td class="lisstype">Java Programming </td></tr>
+        <tr>
+        <td class="lisstype">Operating System </td></tr>
+        <tr>
+        <td class="lisstype">Project work / Dissertation </td></tr>
+        <tr>
+	   <td class="lisstype">Programming in Python </td></tr>
+	   <tr>
+        <td class="lisstype">System Administration using Linux </td></tr>
+        <tr>
+        <td class="lisstype">Computer Networks </td></tr>
+        <tr>
+        <td class="lisstype">Multimedia and Applications </td></tr>
+        <tr>
+	   <td class="lisstype">Artificial Intelligence </td></tr>
+             </table>
+ 
+<ul>
+<li> School/college : Asian Institute of Management and Technology Guwahati </li>
+<li> Board : Guwahati </li>
+<li> Percentage : 60.68 </li>
+<li> Year : 2024 </li>
+</ul>
+
+              </article>
+          </section>
+</main>
+            <div class="more-posts1"> <a class="more-posts" onClick="showHome()">&#10094; Back </a>
+             <a class="more-posts" onClick="showExp()"> Next &#10095;</a> </div> 
+            
+<!--BOTTOM LAYOUT-->
+ <center><bottom>
+<div class="bott1"> 
+<a class="link1" onClick="showHome()">🏠 Home </a> 
+<a class="link1" onClick="showProfile()"> 🎓 Qualification </a> 
+<a class="link1" onClick="showExp()"> 💼Experiences </a> 
+<a class="link1" onClick="showSkills()"> 🎯 Skills </a> 
+</div>
+</bottom></center> 
+</div>
+
+</body>
+</html>
+
+</div>
+
+
+<script>
+function showProfile() {
+document.getElementById('profile').style.display='block';
+document.getElementById('home').style.display='none';
+document.getElementById('exp').style.display='none';
+document.getElementById('skills').style.display='none';
+
+
+}
+
+function showExp() {
+document.getElementById('profile').style.display='none';
+document.getElementById('exp').style.display='block';
+document.getElementById('home').style.display='none';
+document.getElementById('skills').style.display='none';
+
+
+
+}
+
+function showSkills() {
+document.getElementById('exp').style.display='none';
+document.getElementById('skills').style.display='block';
+document.getElementById('home').style.display='none';
+document.getElementById('profile').style.display='none';
+
+}
+
+function showHome() {
+document.getElementById('exp').style.display='none';
+document.getElementById('skills').style.display='none';
+document.getElementById('home').style.display='block';
+document.getElementById('profile').style.display='none';
+
+}
+
+
+
+
+
+</script>
